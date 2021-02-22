@@ -1,14 +1,14 @@
 #waifu-toggle {
-	background-color: #fa0;
+	background-color: #fafafa;
 	border-radius: 5px;
 	bottom: 66px;
-	color: #fff;
+	color: #000000;
 	cursor: pointer;
 	font-size: 12px;
 	right: 0;
 	margin-right: -50px;
 	padding: 5px 2px 5px 5px;
-	position: static;
+	position: absolute;
 	transition: margin-left 1s;
 	width: 60px;
 	writing-mode: vertical-rl;
@@ -27,7 +27,7 @@
 	left: 0;
 	line-height: 0;
 	margin-bottom: -10px;
-	position: static;
+	position: absolute;
 	transform: translateY(3px);
 	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
 	z-index: 1;
