@@ -8,7 +8,7 @@
 	right: 0;
 	margin-right: -50px;
 	padding: 5px 2px 5px 5px;
-	position: sticky;
+	position: static;
 	transition: margin-left 1s;
 	width: 60px;
 	writing-mode: vertical-rl;
@@ -27,7 +27,7 @@
 	left: 0;
 	line-height: 0;
 	margin-bottom: -10px;
-	position: fixed;
+	position: static;
 	transform: translateY(3px);
 	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
 	z-index: 1;
